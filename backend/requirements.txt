@@ -1,0 +1,12 @@
+fastapi
+uvicorn
+websockets
+langchain-openai 
+langchain==0.2.1
+openai==1.30.5
+pypdf2 
+langchain-chroma 
+PyMuPDF 
+pymupdf==1.24.4
+tiktoken 
+langchain-community 
