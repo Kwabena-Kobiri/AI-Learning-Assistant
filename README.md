@@ -13,8 +13,9 @@ The AI Learning Assistant is an application designed to help users study by allo
 
 1. **Clone the Repository**:
    ```bash
-   git clone <repository_url>
-   cd <repository_name>
+   git clone https://github.com/Kwabena-Kobiri/AI-Learning-Assistant.git
+   cd AI-Learning-Assistant
+   cd backend
 
 2. **Install Dependencies**:
    Ensure you have Python installed. Install the required libraries using:
@@ -24,8 +25,8 @@ The AI Learning Assistant is an application designed to help users study by allo
 3. **Start the Backend Server**:
    Move to the directory containing the main.py file and start the server:
    ```bash 
-   cd backend_directory
-   uvicorn main:app --reload
+   cd app
+   fastapi dev main.py
 
 4. **Open the Frontend**:
     The frontend is a simple HTML file. Open index.html in your web browser:   
