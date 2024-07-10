@@ -49,7 +49,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     function connectWebSocket() {
-        socket = new WebSocket('http://devporta-alb-salpojrsuyvo-261385298.eu-west-1.elb.amazonaws.com/ws/chat');
+        socket = new WebSocket('ws://localhost:8000/ws/chat');
 
         socket.onopen = (event) => {
             console.log('WebSocket connected:', event);
